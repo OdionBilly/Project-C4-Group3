@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styels.css">
+
+    <script src="js/feather.min.js"></script>
+    <title>cohort 5 Final Project</title>
+</head>
+<body>
+    <header>
+        <div class="top-header">
+            <div class="top-bar">
+                <div class="contact-email">
+                    <i class="icons" data-feather="mail"></i>
+                    <span>cohort5@azubiafrica.org</span>
+                </div>
+                <div class="conctact-phone">
+                    <i class="icons" data-feather="phone"></i>
+                    <span>+233 1234 56 79</span>
+                </div>
+            </div>
+
+                <!-- top-social icons -->
+            <div class="top-social">
+                <div class="social-icon">
+                    <div class="icon-container">
+                     <i class="main-icons" data-feather="facebook"></i>
+                    </div>
+                    <div class="icon-container">
+                        <i class="main-icons"data-feather="twitter"></i>
+                    </div>
+                    <div class="icon-container">
+                        <i class="main-icons"data-feather="instagram"></i>
+                    </div>
+                </div>
+                <div> 
+                   <button class="btn">Get a schedule</button>
+                </div>
+            </div>
+        </div>
+
+            <!-- top Mobile navigation -->
+        <div class="main-menu">
+            <div class="logo">
+                 <img src="image/logo.png" alt="companys logo">
+            </div>
+           
+            <!-- open-overlay -->
+            <nav class="nav-bar">
+                <div class="mobile-menu">
+                  <i data-feather="menu" class="nav-icon" id="openOverlay" onclick="openOverlay()"></i>
+                </div>
+
+                    <div class="nav-items">
+                        <ul>
+                          <li><a href="#">Home</a></li>
+                          <li><a href="#">About Us</a></li>
+                          <li><a href="#">Services</a></li>
+                          <li><a href="#">Video</a></li>
+                          <li><a href="#">Contact</a></li>
+                          <li><a href="#">Partners</a></li>
+                        </ul>
+                    </div>   
+            </nav>
+         </div>
+
+         <!-- close overlay -->
+         <div class="overlay" id="overlay">
+            <div class="overlay-content">
+                <span class="feather"id="closeOverlay" onclick="closeOverlay()">
+                    <i data-feather="x" class="close-icon"></i>
+                 </span>
+                 <div class="overlay-items">
+                    <div class="overlay-nav-items">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Video</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Partners</a></li>
+
+                        </ul>
+                    </div>
+
+                     
+                 </div>
+            </div>
+
+
+         </div>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-title">
+                Right way...
+            </div>
+            <div class="hero-header">
+                It’s Our Pride <br>
+                To Fight For Your Dream
+            </div>
+            <div class="hero-description">
+                But I must explain to you how all this mistaken idea of
+                denouncing pleasure and praising pain was born and I will give 
+                you a complete account of the system, and expound the actual 
+                teachings of the great explorer of the truth.
+            </div>
+
+            <div class="hero-btns">
+                <button class="herobtn-free-consulting">Free Consulting</button>
+                <button class="herobtn-learn-more">Learn More</button>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+    <script>
+        feather.replace();
+
+        function openOverlay(){
+            document.getElementById("overlay"). style.display="flex";    
+        }
+        function closeOverlay() {
+            document.getElementById("overlay"). style.display="none";
+            
+        }
+    </script>
+</body>
+</html>

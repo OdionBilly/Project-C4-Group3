@@ -1,0 +1,88 @@
+.hero{
+    position: relative;
+    width: 430px;
+    height: 482px;
+    background-image: url(../image/hero\ img.png);
+    background-size: cover;
+    background-position: center;
+    color: #FFFFFF;
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    height: 348px;
+    padding: 0 59px 15px 23px;
+
+}
+.hero-title{
+    padding-top: 141px;
+    font-size: 12px;
+    border-bottom: 2px solid #C82424;
+    padding-bottom: 5px;
+    width: 73.007px;
+}
+.hero-header{
+    width: 348px;
+    height: 63px;
+    font-size: 26px;
+    font-weight: 700px;
+    font-family: merriweather;
+
+}
+.hero-description{
+    width: 375px;
+    height: 60px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.hero-btns{
+    padding: 50px 30px 63px 0px;
+}
+.herobtn-free-consulting{
+    width: 124px;
+    height: 38px;
+    font-size: 12px;
+    font-family:merriweather;
+    font-weight: 400;
+    border-radius: 5px;
+    background: #C82424;
+    color: #FFFFFF;
+}
+.herobtn-learn-more{
+    width: 108px;
+    height: 38px;
+    color: #FFFFFF;
+    font-family: merriweather;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 5px;
+    border: 1px solid #FFF;
+    background: rgba(200, 36, 36, 0.00);
+    margin: 0 15px;
+}
+@media screen and (min-width:601px) {
+.hero{
+    position: relative;
+    width: 834px;
+    height: 482px;
+    background-image: url(../image/hero2\ img.png);
+    background-size: cover;
+    background-position:center;
+    /* }
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    height: 348px;
+    padding: 0 59px 15px 23px; */
+
+}
+.hero-title{
+    padding-top: 95px;
+    font-size: 12px;
+}
+
+}
