@@ -71,14 +71,6 @@
     background-image: url(../image/hero2\ img.png);
     background-size: cover;
     background-position:center;
-    /* }
-.hero-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 20px;
-    height: 348px;
-    padding: 0 59px 15px 23px; */
 
 }
 .hero-title{
@@ -88,7 +80,7 @@
 
 }
 /* desktop screen */
-@media screen and (min-width:1024px){
+@media screen and (min-width:1080px){
 .hero{
     width: 1282px;
     height: 586px;
