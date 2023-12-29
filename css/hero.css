@@ -62,6 +62,7 @@
     background: rgba(200, 36, 36, 0.00);
     margin: 0 15px;
 }
+/* tablet screen */
 @media screen and (min-width:601px) {
 .hero{
     position: relative;
@@ -85,4 +86,12 @@
     font-size: 12px;
 }
 
+}
+/* desktop screen */
+@media screen and (min-width:1024px){
+.hero{
+    width: 1282px;
+    height: 586px;
+
+}
 }

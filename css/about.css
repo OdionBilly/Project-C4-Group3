@@ -1,0 +1,42 @@
+.about{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4,254px);
+    padding: 20px;
+}
+.about div{
+    border-bottom: 0.5px solid #CDC9C9;
+    background: #F9F9F9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.about p{
+    text-align: center;
+    width: 274px;
+    height: 54px;
+    font-size: 14px;
+}
+.about-icon{
+    width: 50px;
+    height: 50px;
+}
+/* tablet screen */
+@media (min-width:601px){
+.about{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.about div{
+    border: none;
+}
+}
+/* desktop screen */
+@media (min-width:1024px){
+.about{
+    grid-template-columns: repeat(4,1fr) ;
+}
+
+}
