@@ -1,10 +1,10 @@
-.about{
+.cart{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4,254px);
     padding: 20px;
 }
-.about div{
+.cart div{
     border-bottom: 0.5px solid #CDC9C9;
     background: #F9F9F9;
     display: flex;
@@ -12,30 +12,30 @@
     justify-content: space-evenly;
     align-items: center;
 }
-.about p{
+.cart p{
     text-align: center;
     width: 274px;
     height: 54px;
     font-size: 14px;
 }
-.about-icon{
+.cart-icon{
     width: 50px;
     height: 50px;
 }
 /* tablet screen */
 @media (min-width:601px){
-.about{
+.cart{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 20px;
 }
-.about div{
+.cart div{
     border: none;
 }
 }
 /* desktop screen */
 @media (min-width:1080px){
-.about{
+.cart{
     grid-template-columns: repeat(4,1fr) ;
 }
 
