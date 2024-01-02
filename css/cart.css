@@ -1,7 +1,7 @@
 .cart{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(4,254px);
+    grid-template-rows: repeat(2,254px);
     padding: 20px;
 }
 .cart div{
@@ -33,6 +33,7 @@
     border: none;
 }
 }
+
 /* desktop screen */
 @media (min-width:1080px){
 .cart{
