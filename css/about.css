@@ -1,12 +1,15 @@
-.about-us{
+.about-content{
     display:flex;
     flex-direction: column;
+    justify-content: space-between;
     padding: 20px;
     gap: 30px;
 }
 .about-image{
     width: 390px;
     height: 353.656px;
+    background-image: url(../image/about.png);
+    background-size: cover;
 }
 .about-us .about-title{
     width: 55px;
@@ -60,4 +63,33 @@
     height: 38px;
     border-radius: 5px;
     background: #C82424;  
+}
+
+/* tablet screen */
+@media (min-width:601px){
+.about-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 30px;
+}
+.about-image{
+    width: 778px;
+    height: 703.685px;
+    background-image: url(../image/about.png);
+    background-size: cover;
+}
+
+.about-header{
+    width: 617px;
+    height: 75px;
+    font-size: 33px;
+    
+}
+.abt-description{
+    width: 713px;
+    height: 60px;
+
+}
 }
