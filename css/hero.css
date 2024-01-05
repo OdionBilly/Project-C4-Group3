@@ -62,7 +62,7 @@
     margin: 0 15px;
 }
 /* tablet screen */
-@media screen and (min-width:601px) {
+@media (min-width:601px) {
 .hero{
     position: relative;
     width: 834px;
@@ -79,7 +79,7 @@
 
 }
 /* desktop screen */
-@media screen and (min-width:1080px){
+@media (min-width:1080px){
 .hero{
     width: 1282px;
     height: 586px;
