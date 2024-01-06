@@ -63,9 +63,6 @@
     align-items: center;
 }
 
-.heading{
-    /* margin-bottom: 20px; */
-}
 
 .input-container{
     display: flex;
@@ -139,8 +136,6 @@ button{
 .social-media-link{
     width: 15%;
 }
-
-
 form{
     display: grid;
     grid-template-columns:  repeat(2,1fr);
@@ -152,5 +147,24 @@ form div:nth-child(5){
     grid-column-start: 1;
     grid-column-end: 3;
 }
-}
 
+}
+/* desktop device */
+@media (min-width: 960px) {
+.contact{
+    width: 1282px;
+    background-image: url(../image/contact-bgdesk.png);
+        
+}
+form{
+    display: grid;
+    grid-template-columns:  repeat(50px,50px);
+    grid-template-rows: 100px 100px;
+}
+form div:nth-child(5){
+    grid-column: span 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+}
+}

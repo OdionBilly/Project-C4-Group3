@@ -79,10 +79,10 @@
 
 }
 /* desktop screen */
-@media (min-width:1080px){
+@media (min-width:960px){
 .hero{
     width: 1282px;
     height: 586px;
-
+    
 }
 }

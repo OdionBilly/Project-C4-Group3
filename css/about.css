@@ -4,7 +4,6 @@
     justify-content: space-between;
     padding-left: 20px;
     gap: 20px;
-    /* background-color: aqua; */
 }
 .about-image{
     width: 390px;
@@ -98,18 +97,19 @@
 }
 /* desktop screen */
 @media screen and (min-width : 960px) {
+.about-us{
+    width: 1280px;
+    }
 .about-content{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto auto;
+    /* margin-top:-100px; */
 }
 .about-image{
     width: 573px;
     height: 558px;
 
-}
-.about-header{
-    /* background-color: aqua; */
 }
 .about-header{
     width: 600px;

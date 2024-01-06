@@ -1,16 +1,14 @@
 .services{
-    background-color: #C82424;
-    width: 390px;
-    height: 423px;
-    color: #FFF;
-    font-family: Merriweather;
-}
-.services .services-content{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    gap: 20px;
-    padding: 31px 23px 0px 19px;
+    width: 390px;
+    color: #FFF;
+    font-family: Merriweather;
+    
+}
+.services .services-content{
+    background-color: #C82424;
+    padding: 31px 23px 31px 19px;
 }
 .services .services-title{
     width: 348;
@@ -74,13 +72,12 @@
 /* media tablet device */
 @media (min-width:601px) {
 .services{
+        margin-left: 50px;
+    }
+.services-content{
         width: 637px;
         height: 423px;
         align-content: center;
-        margin-left: 50px;
-}
-.youtube-video{
-        margin-left: 50px;
 }
 .services-video{
        width: 637px;
@@ -92,6 +89,38 @@
     background-color: #C82424; 
     border-radius: 50%;
     left: 299px;
-    bottom: 50px; 
+    bottom: 70px; 
 }
+}
+/* media desktop device */
+@media (min-width:970px){
+ .services{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 1280px;
+ }
+ .services-video{
+     width: 596px;
+     height: 517px;
+     margin-top: -10%;
+ }
+
+ .services-video-container{
+    position: absolute;
+    width:  110px;
+    height: 110px;
+    background-color: #C82424; 
+    border-radius: 50%;
+    left: 260px;
+    bottom: 199px; 
+ }
+.services-video .play-icon{
+    color: #FFF;
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    left: 40px;
+    bottom:40px;
+}
+
 }
