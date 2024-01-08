@@ -159,12 +159,12 @@ form div:nth-child(5){
 form{
     display: grid;
     grid-template-columns:  repeat(50px,50px);
-    grid-template-rows: 100px 100px;
 }
 form div:nth-child(5){
     grid-column: span 2;
     grid-column-start: 1;
     grid-column-end: 3;
+    
 
 }
 }

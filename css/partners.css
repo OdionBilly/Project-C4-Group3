@@ -1,0 +1,39 @@
+.partners{
+    width: 430px;
+    height: 334px;
+}
+.partners-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.partners-title{
+    font-size: 12px;
+    color: #6C6C6C;
+    padding: 40px 176px 0px 177px;
+}
+.partners-description{
+    padding-left: 50px ;
+    font-size: 28px;
+    font-family: merriweather;
+}
+.partners-logo{
+    display: grid;
+    justify-items: center;
+    padding-top: 40px;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+
+}
+
+/* tablet device */
+@media (min-width: 610px){
+    .partners{
+        width: 833px;
+        height:356px;
+    }
+.partners-title{
+    padding: 70px;
+}
+    
+}
