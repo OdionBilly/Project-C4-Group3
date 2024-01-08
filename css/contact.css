@@ -106,7 +106,7 @@ button{
 .contact{
     width: 833px;
     height: 1035px;
-    background-image: url();
+    background-image: url(../image/contact-bg-tb.png);
 }
 .contact-header{
     width: 650px;
