@@ -52,11 +52,17 @@ a{
    display: flex;
    flex-direction: column;
    gap: 30px;
+
 }
 .footer-info-container{
     display: flex;
     flex-direction: column;
     gap: 5px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid#FFFFFF;
+    /* background-color: aqua; */
+
+    
 }
 .footer-contact-icons .icons{
     width: 20px;
