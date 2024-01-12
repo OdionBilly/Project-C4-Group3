@@ -81,8 +81,9 @@
 /* desktop screen */
 @media (min-width:960px){
 .hero{
-    width: 1282px;
+    width: 1424px;
     height: 586px;
+    background-image: url(../image/herodesk.png);
     
 }
 }

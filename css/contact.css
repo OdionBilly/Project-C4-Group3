@@ -1,6 +1,6 @@
 .contact{
     width: 430px;
-    height: 1128px;
+    height: 1158px;
     background-image: url(../image/contact-bg.png);
     color: #FFFFFF;
     margin-top: 30px;
@@ -62,13 +62,10 @@
     height: 15px;
     align-items: center;
 }
-
-
 .input-container{
     display: flex;
     padding: 15px 0px;
     width: 378px;
-
 }
 .icon{
     width: 50px;
@@ -90,7 +87,7 @@ textarea{
     color: #2D2D2D;
     font-family: Merriweather;
     font-size: 18px;
-    padding:16px 23px
+    padding:16px 23px;
 }
 button{
     width: 146px;
@@ -137,35 +134,80 @@ button{
 .social-media-link{
     width: 15%;
 }
-form{
+.form-content{
+    width: 785px;
     display: grid;
     grid-template-columns:  repeat(2,1fr);
-    grid-template-rows: auto auto;
-    column-gap: 25px;
+    grid-template-rows: auto auto auto;
+    column-gap: 30px;
 }
-form div:nth-child(5){
+.form-content div:nth-child(5){
+    width: 785px;
     grid-column: span 2;
-    grid-column-start: 1;
-    grid-column-end: 3;
 }
+textarea{
+    width: 785px;
 
 }
+}
+
 /* desktop device */
 @media (min-width: 960px) {
 .contact{
     width: 1282px;
+    height: 627px;
     background-image: url(../image/contact-bgdesk.png);
         
 }
-form{
+.contact-content{
     display: grid;
-    grid-template-columns:  repeat(50px,50px);
+    grid-template-columns:  repeat(2,1fr);
+    gap: 10px;
 }
-form div:nth-child(5){
-    grid-column: span 2;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    
+.contact-content-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 10px;
+    align-content: center;
+}
+.contact-header{
+    width: 382px;
+    margin-left: -3px;
+}
+.contact-description{
+    width: 340px;
+    height: 90px;
+    margin-left: -9px;
 
 }
+.schedule .heading{
+    padding: 20px;
+}
+
+.social-media-link{
+    position: relative;
+    top: -100px;
+    left: 250px;
+    width:  100px;
+    
+    
+}
+.contact-social-link{
+    position: absolute;
+    top:300px;
+    left: 250px;
+}
+}
+/* larger screan */
+@media screen and (min-width: 1440px){
+.contact{
+    width: 1435px;
+    height: 627px;
+    background-color: #c82423;
+            
+ }
+
 }

@@ -124,3 +124,32 @@
 }
 
 }
+/* bigger screen */
+@media(min-width:1440px){
+.services-video{
+    width: 760px;
+    
+}
+.services-video-container{
+    position: absolute;
+    width:  125px;
+    height: 125px;
+    background-color: #C82424; 
+    border-radius: 50%;
+    left: 300px;
+    bottom: 159px; 
+ }
+
+ .services-video .play-icon{
+    color: #FFF;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 40px;
+    bottom:38px;
+}
+.services .services-content{
+    height: 420px;
+    margin-left: -18px;
+}
+}
