@@ -53,13 +53,15 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    
 }
-.abt-list li{
+
+.abt-list  li{
     list-style-type:square;
+    color: #6C6C6C;
 }
 .free-consulting{
    padding-bottom: 20px;
-
 }
 .free-cslt{
     color:#FFFFFF;
@@ -93,6 +95,7 @@
 .abt-description{
     width: 713px;
     height: 60px;
+    font-size: 15px;
 }
 }
 /* desktop screen */
@@ -104,18 +107,21 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto auto;
-    /* margin-top:-100px; */
 }
 .about-image{
     width: 573px;
     height: 558px;
-
 }
 .about-header{
     width: 600px;
 }
 .abt-description{
     width: 600px;
+}
+.abt-list{
+    padding: 20px;
+    column-count: 2;
+    
 }
 
 }
