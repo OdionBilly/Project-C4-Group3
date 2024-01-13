@@ -12,6 +12,11 @@
     gap: 30px;
     padding: 30px 83px 31px 20px;
 }
+.contact-content-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 .contact-header{
     width: 327px;
     height: 46px;
@@ -209,5 +214,4 @@ textarea{
     background-color: #c82423;
             
  }
-
 }
